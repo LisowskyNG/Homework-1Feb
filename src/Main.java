@@ -63,6 +63,25 @@ public class Main {
     public static void task4() {
         System.out.println("Задача 4");
         // Пишем код для задачи 4
+        int deliveryDistance = 95;
+        if (deliveryDistance <= 0) {
+            System.out.println("Введите корректное значение расстояния");
+        }
+        if (deliveryDistance > 0 && deliveryDistance < 20) {
+            System.out.println("Срок доставки составит 1 день");
+        }
+        if (deliveryDistance >= 20 && deliveryDistance < 60) {
+            System.out.println("Срок доставки составит 2 дня");
+        }
+        if (deliveryDistance >= 60 && deliveryDistance <= 100) {
+            System.out.println("Срок доставки составит 3 дня");
+        }
+        if (deliveryDistance >= 100) {
+            System.out.println("Свыше 100 км доставки нет");
+        }
+
+
+
 
     }
     public static void task5 () {
