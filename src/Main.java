@@ -46,10 +46,19 @@ public class Main {
     public static void task3() {
         System.out.println("Задача 3");
         // Пишем код для задачи 3
-
-
-
-
+        int year = 2024;
+        if (year %100 == 0 && year %400 == 0) {
+            System.out.println("Год является высокосным");
+        }
+        else if (year % 4 == 0 && year %100 > 0) {
+            System.out.println("Год является высокосным");
+            }
+        else if (year % 100 == 0) {
+            System.out.println("Год является не высокосным");
+            }
+        else {
+            System.out.println("Год является не высокосным");
+        }
     }
     public static void task4() {
         System.out.println("Задача 4");
