@@ -5,8 +5,7 @@ public class Main {
         task3();
         task4();
         task5();
-        task6();
-        task7();
+
     }
     public static void task1() {
         System.out.println("Задача 1");
@@ -80,23 +79,33 @@ public class Main {
             System.out.println("Свыше 100 км доставки нет");
         }
 
-
-
-
     }
     public static void task5 () {
         System.out.println("Задача 5");
         // Пишем код для задачи 5
+    int monthNumber = 12;
+        switch (monthNumber) {
+            case 12:
+            case 1:
+            case 2:
+                System.out.println("Зима");
+                break;
+            case 3:
+            case 4:
+            case 5:
+                System.out.println("Весна");
+            case 6:
+            case 7:
+            case 8:
+                System.out.println("Лето");
+            case 9:
+            case 10:
+            case 11:
+                System.out.println("Осень");
 
-    }
-    public static void task6 () {
-        System.out.println("Задача 6");
-        // Пишем код для задачи 6
-
-    }
-    public static void task7 () {
-        System.out.println("Задача 7");
-        // Пишем код для задачи 7
+            default:
+                System.out.println("Такого месяца не существует");
+        }
 
     }
 }
