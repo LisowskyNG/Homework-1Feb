@@ -11,8 +11,18 @@ public class Main {
     public static void task1() {
         System.out.println("Задача 1");
         // Пишем код для задачи 1
-
+        int clientOS = 1;
+        if (clientOS < 0 || clientOS > 1) {
+            System.out.println("Некорректное значение переменной, введите правильное значение 0 или 1");
+        }
+        if (clientOS == 0) {
+            System.out.println("Установите версию приложения для iOS по ссылке");
+        } else {
+            System.out.println("Установите версию приложения для Android по ссылке");
+        }
     }
+
+
     public static void task2() {
         System.out.println("Задача 2");
         // Пишем код для задачи 2
